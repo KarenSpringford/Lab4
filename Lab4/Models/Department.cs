@@ -18,8 +18,10 @@ namespace Lab4.Models
 
         [Required]
         [StringLength(50)]
+        [Display(Name = "Department Name")]
         public string Name { get; set; }
 
+        [Display(Name = "Budget")]
         public decimal Budget { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

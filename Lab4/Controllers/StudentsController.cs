@@ -13,6 +13,8 @@ namespace Lab4.Controllers
 {
     public class StudentsController : Controller
     {
+
+        // ACTIONS ++++++++++++++++++++++++ //
         private ContosoModel db = new ContosoModel();
 
         // GET: Students
